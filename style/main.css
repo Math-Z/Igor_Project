@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Type';
+    src: url('../fonts/Type\ Machine.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --tema: #f5b1c6;
+    --tema2: #292929;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--tema);
+}
+
+header{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: var(--tema2);
+    color: var(--tema);
+    margin-bottom: 30px;
+}
+
+header p{
+    font-family: 'Type', Arial, Helvetica, sans-serif;
+}
+
+.border{
+    position: relative;
+    height: 310px;
+    width: 310px;
+    background-color: white;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.album{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-image: url('../images/igor_album_cover.jpg');
+    background-size: 100% 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main{
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+}
+
+main p{
+    line-height: 1.5em;
+    padding-left: 20px;
+}
+
+main a{
+    line-height: 2em;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: #cc1952;
+}
+
+section{
+    min-width: 350px;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+section p{
+    line-height: 1.5em;
+    padding-left: 5px;
+}
+
+h1, h2{
+    font-family: 'Type', Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+    background-color: var(--tema2);
+    padding: 15px;
+    margin-top: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #db7b99;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: #c25578;
+}
