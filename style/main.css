@@ -63,12 +63,16 @@ main{
 }
 
 main p{
-    line-height: 1.5em;
+    line-height: 2em;
     padding-left: 20px;
 }
 
+main span{
+    text-decoration: underline;
+}
+
 main a{
-    line-height: 2em;
+    line-height: 2.5em;
     padding-left: 20px;
     text-decoration: none;
     color: black;
@@ -87,7 +91,7 @@ section{
 }
 
 section p{
-    line-height: 1.5em;
+    line-height: 2em;
     padding-left: 5px;
 }
 
